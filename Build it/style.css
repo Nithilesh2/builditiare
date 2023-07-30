@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* background-color: #41228e; */
+    box-sizing: border-box;
+}
+
+img {
+    width: 273px;
+    height: 85px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    background-color: #41228e;
+}
+
+.navbtn {
+    display: inline;
+    border: #41228e;
+    color: rgb(111, 111, 111);
+    background: none;
+}
+
+#navbtn {
+    display: inline;
+    border: #41228e;
+    color: rgb(111, 111, 111);
+    background: none;
+}
+
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: 700;
+    text-decoration: none;
+    width: 100%;
+    height: 90%;
+    padding: 5px 17px;
+    padding: auto;
+    border-radius: 7px;
+}
+
+.navbar {
+    border-color: #41228e;
+    padding-top: 0px;
+}
+
+.active {
+    background-color: rgb(109, 97, 240);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: .8s;
+}
+
+.navbar a:hover {
+    background-color: rgb(109, 97, 240);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: .8s;
+}
+
+.sec {
+    font-family: 'BwNistaInt-xBd';
+    font-size: 500%;
+    color: white;
+    padding: 20% 25% 25% 20%;
+    font-weight: bolder;
+    background-color: #41228e;
+
+}
+
+.about {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    line-height: 1.5;
+    padding: 70px 16% 50px 16%;
+    text-align: center;
+    font-size: 22px;
+}
+
+article {
+    background-color: white;
+    margin: auto;
+}
+
+footer {
+    border: 1px solid black;
+    background-color: rgb(32, 31, 31);
+    padding: 5%;
+}
+
+.about a {
+    color: rgb(77, 8, 142);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+footer h3 {
+    color: white;
+    font-family: 'playfair Display', serif;
+    font-weight: 100;
+    font-size: large;
+    font-size: 0.7rem;
+}
+
+.email {
+    text-align: left;
+}
+
+footer ul li .mail a {
+    size: 0.7rem;
+}
+
+.phone {
+    text-align: center;
+}
+
+.add {
+    text-align: right;
+}
+
+ul {
+    color: white;
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* ul li{
+    padding-left: 3%;
+} */
+
+.copy {
+    text-align: center;
+    color: white;
+}
+
+.copy a {
+    text-decoration: none;
+}
+
+.evv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn,
+.btn2 {
+    display: none;
+    ;
+}
+
+
+@media only screen and (max-width: 805px) {
+
+
+
+    .btn {
+        display: block;
+        /* top: 15px;
+        left: 15px;
+        font-size: 40px; */
+
+        font-size: 40px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        position: fixed;
+        left: 40px;
+        top: 100px;
+        color: #b0a7d4;
+    }
+
+    .btn2 {
+        display: block;
+        /* top: 15px;
+        left: -150px;
+        font-size: 40px; */
+        width: 50px;
+        color: #b0a7d4;
+        font-size: 40px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        position: fixed;
+        left: -300px;
+        top: 100px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        /* gap: 60px; */
+        position: relative;
+        top: -700px;
+        right: 130px;
+
+    }
+
+    .navbar a:hover {
+        background-color: rgb(109, 97, 240);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        transition: .8s;
+    }
+}
